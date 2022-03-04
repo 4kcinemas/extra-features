@@ -735,7 +735,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
             InlineKeyboardButton('𝙱𝙰𝙽', callback_data='zombies')
             ],[
-            InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
@@ -1080,6 +1080,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
@@ -1099,6 +1101,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
