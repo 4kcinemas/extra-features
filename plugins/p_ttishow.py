@@ -41,12 +41,12 @@ async def save_group(bot, message):
                 InlineKeyboardButton('⚡ HΞLᎮ ⚡', url=f"https://t.me/{temp.U_NAME}?start=help")
             ],
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/MWUpdatez')
+                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/SS_Linkz')
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title}.⚡\n\nIf you have any questions & doubts about using me contact OWNER.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title}.⚡\n\nIf you have any questions & doubts about using me Click Help 👇.</b>",
             reply_markup=reply_markup)
     else:
         for u in message.new_chat_members:
