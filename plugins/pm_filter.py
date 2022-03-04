@@ -747,11 +747,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "about":
-        buttons= [
+        buttons= [[
             InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/4kcinemas'),
             InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂', url='https://t.me/+72jLj5JaYgc1MjU1'),
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
-        ]
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
