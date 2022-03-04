@@ -108,7 +108,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"📂[{get_size(file.file_size)}] 💠{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -748,7 +748,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/4kcinemas')
+            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://github.com/4kcinemas'),
             InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂', url='https://t.me/+72jLj5JaYgc1MjU1'),
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]
