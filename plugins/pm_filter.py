@@ -734,9 +734,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙹𝚂𝙾𝙽', callback_data='fun'), 
             InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
             InlineKeyboardButton('𝙱𝙰𝙽', callback_data='zombies')
-            ],[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
-        ]]
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
             text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
