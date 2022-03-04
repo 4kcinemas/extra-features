@@ -719,21 +719,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
+            InlineKeyboardButton('Filter', callback_data='manuelfilter'),
+            InlineKeyboardButton('AutoFilter', callback_data='autofilter'),
+            InlineKeyboardButton('Connection', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝙼𝙸𝚂𝙲', callback_data='extra'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-            InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            InlineKeyboardButton('Misc', callback_data='extra'),
+            InlineKeyboardButton('About', callback_data='about'),
+            InlineKeyboardButton('Status', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'),
-            InlineKeyboardButton("𝙰𝙳𝙼𝙸𝙽", callback_data='admin')
+            InlineKeyboardButton('Fun', callback_data='fun'), 
+            InlineKeyboardButton('Pin', callback_data='pin'),
+            InlineKeyboardButton("Admin", callback_data='admin')
             ],[
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
-            InlineKeyboardButton('𝙱𝙰𝙽', callback_data='zombies')
+            InlineKeyboardButton('Json', callback_data='son'), 
+            InlineKeyboardButton('Mute', callback_data='restric'),
+            InlineKeyboardButton('Ban', callback_data='zombies')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(
@@ -746,9 +746,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton(<b>'Source'</b>, url='https://github.com/4kcinemas'),
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂', url='https://t.me/+72jLj5JaYgc1MjU1'),
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
+            InlineKeyboardButton('Source', url='https://github.com/4kcinemas'),
+            InlineKeyboardButton('Movies', url='https://t.me/+72jLj5JaYgc1MjU1'),
+            InlineKeyboardButton('Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
