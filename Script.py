@@ -52,7 +52,7 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 Credits ›› <a href=https://t.me/ss_linkz><b>𝚂𝚂_𝙻𝚒𝚗𝚔𝚣</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and 𝙽𝙰𝚁𝚄𝚃𝙾  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
 1. 𝙽𝙰𝚁𝚄𝚃𝙾 should have admin privillage.
@@ -169,7 +169,7 @@ Delete A Lot Of Messages From Groups!
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MWUpdatez)</code>
+<code>[Button Text](buttonurl:https://t.me/SS_Linkz)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
