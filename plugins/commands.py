@@ -69,7 +69,7 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("❔ T R Y  N O W ❔", callback_data=f"checksub#{message.command[1]}"])
+            btn.append([InlineKeyboardButton("❔ T R Y  N O W ❔", "Go Back to The Group and Click Your Same Result ⚡", show_alert=True)
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join Our Channel to Get Movies!**",
