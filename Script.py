@@ -3,17 +3,17 @@ class script(object):
 
 <i>➪ 𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍</i>
 
-<i>➪ i𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇, 𝗁𝗂𝗍 <a href=callback_data='help'>help</a></b> 𝖿𝗈𝗋 𝗆𝗈𝗋𝖾</i>
-@bold[.](https://telegra.ph/file/f97f08dba46952622f0f4.jpg)"""
+<i>➪ i𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇, 𝗁𝗂𝗍 <a href=callback_data='help'>help</a> 𝖿𝗈𝗋 𝗆𝗈𝗋𝖾</i>
+"""
     HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌</b>: 
 /start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
 help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
 about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
     ABOUT_TXT = """ᕼᗴᒪᒪO 🙌
 
-<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b> : <m>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</m>
+<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b> : <n>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</n>
 <b>○ 𝖢𝗋𝖾𝖺𝗍𝗈</b>𝗋 : <m><a href=https://t.me/Sarathi_admin>𝕊𝕒𝕣𝕒𝕥𝕙𝕚</a></m>
-<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/MwK_autofilterBOT>𝙽𝙰𝚁𝚄𝚃𝙾</a>
+<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/Sarathi_admin>To Me ⚡</a>
 <b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=https://t.me/Python>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
 <b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣</a>
 <b>○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾</b> : <a href=https://github.com/4kcinemas>👉𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
