@@ -10,15 +10,15 @@ help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀�
 about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
     ABOUT_TXT = """ᕼᗴᒪᒪO 🙌
 
-<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <m>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</m>
-<b>○ 𝖢𝗋𝖾𝖺𝗍𝗈</b>𝗋: <m><a href=https://t.me/Sarathi_admin>𝕊𝕒𝕣𝕒𝕥𝕙𝕚</a></m>
-<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b>: <a href=https://t.me/MwK_autofilterBOT>𝙽𝙰𝚁𝚄𝚃𝙾</a>
-<b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b>: <a href=https://t.me/Python>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
-<b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b>: <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣</a>
-<b>○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾</b>: <a href=https://github.com/4kcinemas>👉𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
+<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b> : <m>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</m>
+<b>○ 𝖢𝗋𝖾𝖺𝗍𝗈</b>𝗋 : <m><a href=https://t.me/Sarathi_admin>𝕊𝕒𝕣𝕒𝕥𝕙𝕚</a></m>
+<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/MwK_autofilterBOT>𝙽𝙰𝚁𝚄𝚃𝙾</a>
+<b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=https://t.me/Python>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
+<b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣</a>
+<b>○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾</b> : <a href=https://github.com/4kcinemas>👉𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
 <b>○ 𝖲𝖾𝗋𝗏𝖾𝗋</b>: <a href=http://Heroku.com>𝖧𝖾𝗋𝗈𝗄𝗎</a>
-<b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b>: <m>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</m>
-<b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b>: <m>𝖵9.7 [𝖡𝖾𝖳𝖺]</m>"""
+<b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <m>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</m>
+<b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <m>𝖵9.7 [𝖡𝖾𝖳𝖺]</m>"""
     
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
