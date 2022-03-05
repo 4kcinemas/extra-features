@@ -12,7 +12,7 @@ about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
 
 <b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b>: <m>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</m>
 <b>○ 𝖢𝗋𝖾𝖺𝗍𝗈</b>𝗋: <m><a href=https://t.me/Sarathi_admin>𝕊𝕒𝕣𝕒𝕥𝕙𝕚</a></m>
-<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b>: @sarathi_admin | @Selva_rsstudios
+<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b>: <m>எல்லாப் புகழும் இறைவுக்கே</m> 😇✨
 <b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b>: <a href=https://t.me/Python>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
 <b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b>: <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣</a>
 <b>○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾</b>: <a href=https://github.com/4kcinemas>👉𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
