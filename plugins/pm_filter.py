@@ -1240,7 +1240,7 @@ async def auto_filter(client, msg, spoll=False):
             runtime = imdb["runtime"],
             countries = imdb["countries"],
             certificates = imdb["certificates"],
-            languages = imdb["languages"],
+            languages = imdb[#"languages"],
             director = imdb["director"],
             writer = imdb["writer"],
             producer = imdb["producer"],
@@ -1250,7 +1250,7 @@ async def auto_filter(client, msg, spoll=False):
             distributors = imdb["distributors"],
             release_date = imdb['release_date'],
             year = imdb['year'],
-            genres = imdb['genres'],
+            genres = imdb[#'genres'],
             poster = imdb['poster'],
             plot = imdb['plot'],
             rating = imdb['rating'],
@@ -1284,7 +1284,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("I couldn't find any movie in that name.")
+        k = await msg.reply_sticker("CAACAgUAAxkBAAEN125iJLH_huw6lTleKqOxmqwCxLGpiAACugIAAkGL-VTQ6rE0nuUb2B4E")
         await asyncio.sleep(8)
         await k.delete()
         return
