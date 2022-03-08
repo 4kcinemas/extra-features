@@ -736,8 +736,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖡𝖺𝗇', callback_data='zombies')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
-        await query.message.edit_text(
-            text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
+        sts = await query.message.reply_text(
+                  text="▢▢▢"
+        )
+        await sts.edit_text(
+            text="▣▢▢"
+        )
+        await sts.edit_text(
+            text="▣▣▢"
+        )
+        await sts.edit_text(
+                   text="▣▣▣"
+        )
+        await sts.delete()
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -751,8 +762,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="𝚂𝚂_𝙻𝙸𝙽𝙺𝚉"
+        sts = await query.message.reply_text(
+                  text="▢▢▢"
+        )
+        await sts.edit_text(
+            text="▣▢▢"
+        )
+        await sts.edit_text(
+            text="▣▣▢"
+        )
+        await sts.edit_text(
+                   text="▣▣▣"
+        )
+        await sts.delete()
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
