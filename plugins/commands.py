@@ -20,10 +20,28 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("help") & filters.private)
 async def help(client, message)
-    await message.reply_text(
+        buttons = [[
+            InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='autofilter'),
+            InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct')
+            ],[
+            InlineKeyboardButton('𝖬𝗂𝗌𝖼', callback_data='extra'),
+            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍', callback_data='about'),
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats')
+            ],[
+            InlineKeyboardButton('𝖥𝗎𝗇', callback_data='fun'), 
+            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin'),
+            InlineKeyboardButton("Admin", callback_data='admin')
+            ],[
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='son'), 
+            InlineKeyboardButton('𝖬𝗎𝗍𝖾', callback_data='restric'),
+            InlineKeyboardButton('𝖡𝖺𝗇', callback_data='zombies')
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_text(
         text=Script.HELP_TXT,
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup(
+        reply_markup=reply_markup,
+        parse_mode='html'
 
 @Client.on_message(filters.command("start"))
 async def start(client, message):
