@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 BATCH_FILES = {}
 
 @Client.on_message(filters.command("help") & filters.private)
-async def help(client, message)
+async def help(client, message):
         buttons = [[
             InlineKeyboardButton('𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='manuelfilter'),
             InlineKeyboardButton('𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋', callback_data='autofilter'),
