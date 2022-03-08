@@ -18,8 +18,12 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-@Client.on_message(filters.command("help"))
-async def help(callback_data='help')
+@Client.on_message(filters.command("help") & filters.private)
+async def help(client, message)
+    await message.reply_text(
+        text=Script.HELP_MSG,
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
 
 @Client.on_message(filters.command("start"))
 async def start(client, message):
