@@ -21,7 +21,7 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("help") & filters.private)
 async def help(client, message)
     await message.reply_text(
-        text=Script.HELP_MSG,
+        text=Script.HELP_TXT,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
 
