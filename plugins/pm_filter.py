@@ -748,7 +748,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await sts.edit_text(
                    text="▣▣▣"
         )
-        await sts.delete()
+        await sts.delete(
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -774,7 +774,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await sts.edit_text(
                    text="▣▣▣"
         )
-        await sts.delete()
+        await sts.delete(
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
