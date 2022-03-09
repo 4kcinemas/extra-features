@@ -3,25 +3,33 @@ class script(object):
 
 𝖨'𝗆 𝖺 𝖴𝗌𝖾𝗋-𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒 𝗀𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗋 
 
-➢ <b>Build Version</b>: V2.1.0 [BETA]
-➢ <b>Speciality</b>: 'monospace'Movie Provider'monospace'
+➢ <b>Build Version</b>: <code>V2.1.0 [BETA]</code>
+➢ <b>Speciality</b>: <code>Movie Provider</code>
 
 𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌"""
     HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌</b>: 
 /start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
 help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
 about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
-    ABOUT_TXT = """ᕼᗴᒪᒪO 🙌
+    ABOUT_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
+    
+➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='https://t.me/sarathi_admin'>🅢︎🅐︎🅡︎🅐︎🅣︎🅗︎🅘︎[𝖲𝖲𝖫𝗂𝗇𝗄𝗓]</a>
 
-<b>○ 𝖬𝗒 𝖭𝖺𝗆𝖾</b> : <n>𝖠𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖵1</n>
-<b>○ 𝖢𝗋𝖾𝖺𝗍𝗈</b>𝗋 : <m><a href=https://t.me/Sarathi_admin>𝕊𝕒𝕣𝕒𝕥𝕙𝕚</a></m>
-<b>○ 𝖢𝗋𝖾𝖽𝗂𝗍𝗌</b> : <a href=https://t.me/Sarathi_admin>To Me ⚡</a>
-<b>○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾</b> : <a href=https://t.me/Python>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
-<b>○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒</b> : <a href=http://docs.pyrogram.org/>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣</a>
-<b>○ 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾</b> : <a href=https://github.com/4kcinemas>👉𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
-<b>○ 𝖲𝖾𝗋𝗏𝖾𝗋</b> : <a href=http://Heroku.com>𝖧𝖾𝗋𝗈𝗄𝗎</a>
-<b>○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾</b> : <m>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</m>
-<b>○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌</b> : <m>𝖵9.7 [𝖡𝖾𝖳𝖺]</m>"""
+➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://github.com/EvamariaTG/EvaMaria'>Eva Maria</a>
+
+➢ 𝐌𝐲 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
+
+➢ 𝐌𝐲 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: 𝖯𝗒𝗍𝗁𝗈𝗇3
+
+➢ 𝐌𝐲 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: 𝖬𝗈𝗇𝗀𝗈 𝖣𝖡 
+
+➢ 𝐌𝐲 𝐒𝐞𝐫𝐯𝐞𝐫: 𝖧𝖾𝗋𝗈𝗄𝗎
+
+➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://t.me/ss_linkz'>𝖲𝖲 𝖫𝗂𝗇𝗄𝗓</a>
+
+➢ 𝐌𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: <a href='https://t.me/sslinkzsupport'>𝖲𝖲 𝖫𝗂𝗇𝗄𝗓 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+
+➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡"""
     
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
