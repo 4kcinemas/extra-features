@@ -4,8 +4,8 @@ class script(object):
 𝖨'𝗆 𝖺 𝖴𝗌𝖾𝗋-𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒 𝗀𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗋 
 
 ➢ <b>Build Version</b>: <code>V2.1.0 [BETA]</code>
-➢ <b>Speciality</b>: <code><a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'>Movie Provider</a></code>
-
+➢ <b>Speciality</b>: <code>Movie Provider</code>
+<a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'></a>
 𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌"""
     HELP_TXT = """𝖶𝖺𝗌𝗌𝗎p {},
 
