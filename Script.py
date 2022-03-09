@@ -4,13 +4,14 @@ class script(object):
 𝖨'𝗆 𝖺 𝖴𝗌𝖾𝗋-𝖥𝗋𝗂𝖾𝗇𝖽𝗅𝗒 𝗀𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗋 
 
 ➢ <b>Build Version</b>: <code>V2.1.0 [BETA]</code>
-➢ <b>Speciality</b>: <code>Movie Provider</code>
+➢ <b>Speciality</b>: <code><a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'>Movie Provider</a></code>
 
 𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌"""
-    HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌</b>: 
-/start - 𝖼𝗁𝖾𝖼𝗄 𝗐𝗁𝖾𝗍𝗁𝖾𝗋 𝗂𝗆 𝗈𝗇𝗅𝗂𝗇𝖾 
-help - 𝗀𝖾𝗍 𝗍𝗁𝗂𝗌 𝗁𝖾𝗅𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾
-about - 𝖺𝖻𝗈𝗎𝗍 𝗆𝖾"""
+    HELP_TXT = """𝖶𝖺𝗌𝗌𝗎p {},
+
+/about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
+
+𝚃𝙰𝙿 𝙾𝙽 𝙴𝙰𝙲𝙷 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ✨."""
     ABOUT_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
     
 ➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='https://t.me/sarathi_admin'>🅢︎🅐︎🅡︎🅐︎🅣︎🅗︎🅘︎[𝖲𝖲𝖫𝗂𝗇𝗄𝗓]</a>
