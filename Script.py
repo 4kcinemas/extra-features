@@ -5,8 +5,10 @@ class script(object):
 
 ➢ <b>Build Version</b>: <code>V2.1.0 [BETA]</code>
 ➢ <b>Speciality</b>: <code>Movie Provider</code>
-<a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'></a>
-𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌"""
+
+𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌
+
+<a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'>.</a>"""
     HELP_TXT = """𝖶𝖺𝗌𝗌𝗎p {},
 
 /about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
