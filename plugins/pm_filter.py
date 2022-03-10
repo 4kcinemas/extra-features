@@ -136,18 +136,18 @@ async def next_page(bot, query):
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("⌫", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📆{round(int(offset) / 10) + 1} / {round(total / 10)}",
+             InlineKeyboardButton(f"🗓️{round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"📆 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(f"🗓️{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("⌦", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("⌫", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"📆{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton(f"🗓️{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("⌦", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
@@ -728,7 +728,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖨𝖬𝖣𝖡', callback_data='extra'), 
             InlineKeyboardButton('𝖨𝖣', callback_data='extra')
             ],[
-            InlineKeyboardButton('🔙𝖡𝖺𝖼𝗄', callback_data='start')
+            InlineKeyboardButton('🔙𝖡𝖺𝖼𝗄', callback_data='home')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         sts = await query.message.reply_text(
