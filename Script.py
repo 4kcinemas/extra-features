@@ -227,10 +227,15 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>• 𝚂𝙰𝚅𝙴𝙳 𝙵𝙸𝙻𝙴𝚂: <code>{}</code></b>
-<b>• 𝚄𝚂𝙴𝚁𝚂: <code>{}</code></b>
-<b>• 𝙶𝚁𝙾𝚄𝙿𝚂: <code>{}</code></b>
-<b>• 𝙳𝙱 𝚄𝚂𝙰𝙶𝙴: <code>{}</code></b>"""
+    STATUS_TXT = """<b>• ➪ Total Files: <code>{}</code></b>
+
+<b>➪ Total Users: <code>{}</code></b>
+
+<b>➪ Total Chats: <code>{}</code></b>
+
+<b>➪ Used Storage: <code>{}</code></b>
+
+<b>➪ Free Storage: <code>{}</code></b>"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
     
 <b>᚛› 𝐆𝐫𝐨𝐮𝐩 ⪼ {}(<code>{}</code>)</b>
