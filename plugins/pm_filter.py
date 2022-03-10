@@ -679,7 +679,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''), 
+            InlineKeyboardButton('Help💭', callback_data='help'),
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -728,7 +731,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖨𝖬𝖣𝖡', callback_data='extra'), 
             InlineKeyboardButton('𝖨𝖣', callback_data='extra')
             ],[
-            InlineKeyboardButton('🔙𝖡𝖺𝖼𝗄', callback_data='home')
+            InlineKeyboardButton('🔙𝖡𝖺𝖼𝗄', callback_data='start')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         sts = await query.message.reply_text(
@@ -1206,7 +1209,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📂[{get_size(file.file_size)}] 💠{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"⚡[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1231,7 +1234,7 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"📆 1/{round(int(total_results) / 10)}", callback_data="pages"),
+            [InlineKeyboardButton(text=f"📅1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="⌦", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
