@@ -755,7 +755,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝖦𝗂𝗍𝖧𝗎𝖻', url='https://GitHub.com/EvaMariaTG/EvaMaria')
+            InlineKeyboardButton('𝖦𝗂𝗍𝖧𝗎𝖻', url='https://GitHub.com/EvaMariaTG/EvaMaria'),
             InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
             InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
