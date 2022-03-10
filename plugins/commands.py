@@ -233,6 +233,36 @@ async def start(client, message):
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
         )
+
+
+@Client.on_message(filters.command('about') & filters.private)
+async def about(bot, message):
+    
+    buttons = [[
+            InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', url='https://github.com/EvaMariaTG/EvaMaria'),
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
+            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        sts = await query.message.reply_text(
+                  text="▢▢▢"
+        )
+        await sts.edit_text(
+            text="▣▢▢"
+        )
+        await sts.edit_text(
+            text="▣▣▢"
+        )
+        await sts.edit_text(
+                   text="▣▣▣"
+        )
+        await sts.delete(
+        )
+        await query.message.edit_text(
+            text=script.ABOUT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
