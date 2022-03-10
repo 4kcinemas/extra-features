@@ -723,7 +723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖬𝖺𝗇𝗎𝖺𝗅', callback_data='manualfilter')
             ],[
             InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct'),
-            InlineKeyboardButton('𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾', callback_data='filestore')
+            InlineKeyboardButton('𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾', callback_data='newdata')
             ],[
             InlineKeyboardButton('𝖨𝖬𝖣𝖡', callback_data='extra'), 
             InlineKeyboardButton('𝖨𝖣', callback_data='extra')
