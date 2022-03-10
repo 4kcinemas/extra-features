@@ -9,7 +9,7 @@ class script(object):
 𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌<a href='https://telegra.ph/file/eaf97e4782f05b667e551.jpg'>.</a>"""
     HELP_TXT = """𝖶𝖺𝗌𝗌𝗎p {},
 
-/about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
+about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
 
 𝚃𝙰𝙿 𝙾𝙽 𝙴𝙰𝙲𝙷 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ✨."""
     ABOUT_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
@@ -227,7 +227,7 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """<b>• ➪ Total Files: <code>{}</code></b>
+    STATUS_TXT = """<b>➪ Total Files: <code>{}</code></b>
 
 <b>➪ Total Users: <code>{}</code></b>
 
