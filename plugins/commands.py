@@ -235,25 +235,6 @@ async def start(client, message):
         )
 
 
-@Client.on_message(filters.command('about') & filters.private)
-async def about(bot, message):
-    
-    buttons = [[
-            InlineKeyboardButton('𝖲𝗈𝗎𝗋𝖼𝖾', url='https://github.com/EvaMariaTG/EvaMaria'),
-            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
-            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await bot.send_message(
-        chat_id=update.chat.id,
-        text=script.ABOUT_TEXT,
-        reply_markup=reply_markup,
-        disable_web_page_preview=True,
-        parse_mode="html",
-        reply_to_message_id=update.message_id
-    )
-                    
-
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
