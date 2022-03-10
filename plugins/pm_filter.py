@@ -728,8 +728,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇', callback_data='coct'),
             InlineKeyboardButton('𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾', callback_data='newdata')
             ],[
-            InlineKeyboardButton('𝖨𝖬𝖣𝖡', callback_data='extra'), 
-            InlineKeyboardButton('𝖨𝖣', callback_data='extra')
+            InlineKeyboardButton('𝖤𝗑𝗍𝗋𝖺', callback_data='extra'), 
+            InlineKeyboardButton('𝖠𝖻𝗈𝗎𝗍', callback_data='about')
             ],[
             InlineKeyboardButton('🔙𝖡𝖺𝖼𝗄', callback_data='start')
             ]]
@@ -750,6 +750,32 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "about":
+        buttons= [[
+            InlineKeyboardButton('𝖦𝗂𝗍𝖧𝗎𝖻', url='https://GitHub.com/EvaMariaTG/EvaMaria')
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
+            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        sts = await query.message.reply_text(
+                  text="▢▢▢"
+        )
+        await sts.edit_text(
+            text="▣▢▢"
+        )
+        await sts.edit_text(
+            text="▣▣▢"
+        )
+        await sts.edit_text(
+                   text="▣▣▣"
+        )
+        await sts.delete(
+        )
+        await query.message.edit_text(
+            text=script.ABOUT_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
