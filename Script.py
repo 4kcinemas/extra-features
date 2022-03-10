@@ -14,7 +14,7 @@ about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
 𝚃𝙰𝙿 𝙾𝙽 𝙴𝙰𝙲𝙷 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂 ✨."""
     ABOUT_TXT = """➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
     
-➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='@sarathi_admin'>🅢︎🅐︎🅡︎🅐︎🅣︎🅗︎🅘︎[𝖲𝖲𝖫𝗂𝗇𝗄𝗓]</a>
+➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='https://t.me/sarathi_admin'>🅢︎🅐︎🅡︎🅐︎🅣︎🅗︎🅘︎[𝖲𝖲𝖫𝗂𝗇𝗄𝗓]</a>
 
 ➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: <a href='https://github.com/EvamariaTG/EvaMaria'>Eva Maria</a>
 
