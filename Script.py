@@ -6,7 +6,7 @@ class script(object):
 ➢ <b>Build Version</b>: <code>V2.1.0 [BETA]</code>
 ➢ <b>Speciality</b>: <code>Movie Provider</code>
 
-𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌<a href='https://telegra.ph/file/1d8c9530eb2a4978a1193.jpg'>.</a>"""
+𝖢𝗅𝗂𝖼𝗄 <b>𝖧𝖾𝗅𝗉</b> 𝗍𝗈 𝗆𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌<a href='https://telegra.ph/file/eaf97e4782f05b667e551.jpg'>.</a>"""
     HELP_TXT = """𝖶𝖺𝗌𝗌𝗎p {},
 
 /about: 𝖳𝗈 𝗄𝗇𝗈𝗐 𝗆𝗒 𝖽𝖾𝗍𝖺𝗂𝗅𝗌
@@ -32,21 +32,17 @@ class script(object):
 
 ➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡"""
     
-    FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
+    FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾
 
-<b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
+𝚆𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝚌𝚘𝚖𝚖𝚊𝚍𝚜 𝚒 𝚌𝚊𝚗 𝚜𝚝𝚘𝚛𝚎 𝚏𝚒𝚕𝚎𝚜 𝚊𝚗𝚍 𝚐𝚒𝚟𝚎 𝚢𝚘𝚞 𝚊 𝚜𝚑𝚊𝚛𝚎𝚊𝚋𝚕𝚎 𝚕𝚒𝚗𝚔 𝚠𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝚕𝚒𝚗𝚔 𝚒 𝚌𝚊𝚗 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚊𝚝 𝚏𝚒𝚕𝚎𝚜 𝚢𝚘𝚞 𝚐𝚒𝚟𝚎 𝚖𝚎 𝚏𝚛𝚘𝚖 𝚊𝚗𝚢 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚠𝚒𝚝𝚑𝚘𝚞𝚝 𝚊𝚍𝚍𝚒𝚗𝚐 𝚖𝚎
 
-⪼ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞 ›
+➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 
-➪ /plink ›› <b>𝖱𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺𝗇𝗒 𝗆𝖾𝖽𝗂𝖺 𝗍𝗈 𝗀𝖾𝗍 𝗅𝗂𝗇𝗄.</b>
-➪ /pbatch ›› <b>𝖴𝗌𝖾 𝗒𝗈𝗎𝗋 𝗆e𝖽𝗂𝖺 𝗅𝗂𝗇𝗄 𝗐𝗂𝗍𝗁 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽.</b>
-➪ /batch ›› <b>To Create Link For Multiple Post.</b>
+➪ /plink - 𝖱𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺𝗇𝗒 𝗆𝖾𝖽𝗂𝖺 𝗍𝗈 𝗀𝖾𝗍 𝗅𝗂𝗇𝗄
+➪ /batch - 𝖴𝗌𝖾 𝗒𝗈𝗎𝗋 𝗆𝖺𝖽𝗂𝖺 𝗅𝗂𝗇𝗄 𝗐𝗂𝗍𝗁 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽
 
-⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
-
-<code>/batch https://t.me/SS_Linkz/3 https://t.me/SS_Linkz/8</code>
-
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/ss_linkz><b>𝚂𝚂_𝙻𝚒𝚗𝚔𝚣</b></a>"""
+➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
+<code>/batch https://t.me/SS_Linkz/3 https://t.me/SS_Linkz/8</code>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
@@ -62,20 +58,18 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
     DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b>
 
 Credits ›› <a href=https://t.me/ss_linkz><b>𝚂𝚂_𝙻𝚒𝚗𝚔𝚣</b></a>"""
-    MANUELFILTER_TXT = """Help: <b>Filters</b>
+    MANUELFILTER_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖬𝖺𝗇𝗎𝖺𝗅-𝖥𝗂𝗅𝗍𝖾𝗋.
 
-- Filter is the feature were users can set automated replies for a particular keyword and 𝙽𝙰𝚁𝚄𝚃𝙾  will respond whenever a keyword is found the message
+➤ 𝐍𝐨𝐭𝐞:
+1. 𝖬𝖺𝗄𝖾 𝗆𝖾 𝖺𝗇 𝖠𝖽𝗆𝗂𝗇 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉.
+2. 𝖮𝗇𝗅𝗒 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉 𝖠𝖽𝗆𝗂𝗇𝗌 𝖼𝖺𝗇 𝖺𝖽𝖽 𝖿𝗂𝗅𝗍𝖾𝗋𝗌.
+3. 𝖠𝗅𝖾𝗋𝗍 𝖻𝗎𝗍𝗍𝗈𝗇 𝗅𝗂𝗆𝗂𝗍: 64 𝖼𝗁𝖺𝗋𝖺𝖼𝗍𝖾𝗋𝗌.
 
-<b>NOTE:</b>
-1. 𝙽𝙰𝚁𝚄𝚃𝙾 should have admin privillage.
-2. only admins can add filters in a chat.
-3. alert buttons have a limit of 64 characters.
-
-<b>Commands and Usage:</b>
-• /filter - <code>add a filter in chat</code>
-• /filters - <code>list all the filters of a chat</code>
-• /del - <code>delete a specific filter in chat</code>
-• /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+➤ 𝖬𝖺𝗇𝗎𝖺𝗅-𝖥𝗂𝗅𝗍𝖾𝗋 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌:
+➪/add 𝗈𝗋 /filter - 𝖳𝗈 𝖺𝖽𝖽 𝖺 𝖥𝗂𝗅𝗍𝖾𝗋 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
+➪/filters 𝗈𝗋 /viewfilters - 𝖳𝗈 𝗅𝗂𝗌𝗍 𝖺𝗅𝗅 𝗍𝗁𝖾 𝖿𝗂𝗅𝗍𝖾𝗋𝗌 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.
+➪/del - 𝖳𝗈 𝖽𝖾𝗅𝖾𝗍𝖾 𝖺 𝗌𝗉𝖾𝖼𝗂𝖿𝗂𝖼 𝖿𝗂𝗅𝗍𝖾𝗋.
+➪/delall - 𝖳𝗈 𝖽𝖾𝗅𝖾𝗍𝖾 𝖺𝗅𝗅 𝗍𝗁𝖾 𝖿𝗂𝗅𝗍𝖾𝗋𝗌 𝗂𝗇 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗉.[𝖦𝖱𝖮𝖴𝖯 𝖮𝖶𝖭𝖤𝖱𝖲 𝖮𝖭𝖫𝖸]"""
     SONG_TXT = """<b>🎼Song Download🎼</b>
 Song Download Module, For Those Who Love Music
 
@@ -171,20 +165,20 @@ Delete A Lot Of Messages From Groups!
  <b>ADMIN</b> 
 
 ◉ /purge :- Delete All Messages From The Replied To Message, To The Current Message"""
-    BUTTON_TXT = """Help: <b>Buttons</b>
+    BUTTON_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖡𝖴𝖳𝖳𝖮𝖭𝖲.
 
--𝙽𝙰𝚁𝚄𝚃𝙾  Supports both url and alert inline buttons.
+➪ 𝖨 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 𝖻𝗈𝗍𝗁 𝖴𝖱𝖫 & 𝖠𝖫𝖤𝖱𝖳 𝗂𝗇𝗅𝗂𝗇𝖾 𝖻𝗎𝗍𝗍𝗈𝗇𝗌.
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. 𝙽𝙰𝚁𝚄𝚃𝙾 supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
+➤ 𝐍𝐨𝐭𝐞:
+1. 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝗐𝗂𝗅𝗅 𝗇𝗈𝗍 𝖺𝗅𝗅𝗈𝗐𝗌 𝗒𝗈𝗎 𝗍𝗈 𝗌𝖾𝗇𝖽 𝖻𝗎𝗍𝗍𝗈𝗇𝗌 𝗐𝗂𝗍𝗁𝗈𝗎𝗍 𝖺𝗇𝗒 𝖼𝗈𝗇𝗍𝖾𝗇𝗍, 𝗌𝗈 𝖼𝗈𝗇𝗍𝖾𝗇𝗍 𝗂𝗌 𝗆𝖺𝗇𝖽𝖺𝗍𝗈𝗋𝗒.
+2. 𝖨 𝗌𝗎𝗉𝗉𝗈𝗋𝗍 𝖻𝗎𝗍𝗍𝗈𝗇𝗌 𝗐𝗂𝗍𝗁 𝖺𝗇𝗒 𝗍𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝗆𝖾𝖽𝗂𝖺 𝗍𝗒𝗉𝖾.
+3. 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 𝗌𝗁𝗈𝗎𝗅𝖽 𝖻𝖾 𝗉𝗋𝗈𝗉𝖾𝗋𝗅𝗒 𝗉𝖺𝗋𝗌𝖾𝖽 𝖺𝗌 𝗆𝖺𝗋𝗄𝖽𝗈𝗐𝗇 𝖿𝗈𝗋𝗆𝖺𝗍.
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/SS_Linkz)</code>
+➤ 𝐔𝐑𝐋 𝐁𝐮𝐭𝐭𝐨𝐧𝐬:
+[𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝖾𝗑𝗍](buttonurl:𝗁𝗍𝗍𝗉𝗌://𝗍.𝗆𝖾/SS_Linkz)
 
-<b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
+➤ 𝐀𝐋𝐄𝐑𝐓 𝐁𝐮𝐭𝐭𝐨𝐧𝐬:
+[𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝖾𝗑𝗍](buttonalert: Your text)"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
@@ -192,19 +186,20 @@ Delete A Lot Of Messages From Groups!
 2. make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌.
 
-- Used to connect bot to PM for managing filters 
-- it helps to avoid spamming in groups.
+- 𝖴𝗌𝖾𝖽 𝗍𝗈 𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖻𝗈𝗍 𝗍𝗈 𝖯𝖬 𝖿𝗈𝗋 𝗆𝖺𝗇𝖺𝗀𝗂𝗇𝗀 𝖿𝗂𝗅𝗍𝖾𝗋𝗌 
+- 𝗂𝗍 𝗁𝖾𝗅𝗉𝗌 𝗍𝗈 𝖺𝗏𝗈𝗂𝖽 𝗌𝗉𝖺𝗆𝗆𝗂𝗇𝗀 𝗂𝗇 𝗀𝗋𝗈𝗎𝗉𝗌.
 
-<b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+➤ 𝐍𝐨𝐭𝐞:
+1. 𝖮𝗇𝗅𝗒 𝖺𝖽𝗆𝗂𝗇𝗌 𝖼𝖺𝗇 𝖺𝖽𝖽 𝖺 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇.
+2. 𝖲𝖾𝗇𝖽 /connect 𝖿𝗈𝗋 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗇𝗀 𝗆𝖾 𝗍𝗈 𝗎𝗋 𝖯𝖬.
 
-<b>Commands and Usage:</b>
-• /connect  - <code>connect a particular chat to your PM</code>
-• /disconnect  - <code>disconnect from a chat</code>
-• /connections - <code>list all your connections</code>"""
+➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 & 𝐔𝐬𝐚𝐠𝐞:
+
+➪/connect: 𝖳𝗈 𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖺 𝗀𝗋𝗈𝗎𝗉 𝗍𝗈 𝗒𝗈𝗎𝗋 𝖯𝖬.
+➪/disconnect: 𝖳𝗈 𝖽𝗂𝗌𝖼𝗈𝗇𝗇𝖾𝖼𝗍 𝖿𝗋𝗈𝗆 𝖺 𝗀𝗋𝗈𝗎𝗉.
+➪/connections: 𝖳𝗈 𝗅𝗂𝗌𝗍 𝖺𝗅𝗅 𝗒𝗈𝗎𝗋 𝖼𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌."""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
