@@ -1334,7 +1334,7 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
         k = await msg.reply_sticker("CAACAgUAAxkBAAEN125iJLH_huw6lTleKqOxmqwCxLGpiAACugIAAkGL-VTQ6rE0nuUb2B4E")
-        btn.append([InlineKeyboardButton("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️",show_alert=true]))
+        reply_markup=([InlineKeyboardButton("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️",show_alert=true]))
         await asyncio.sleep(8)
         await k.delete()
         return
