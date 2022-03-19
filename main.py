@@ -9,7 +9,12 @@ Client(
 
 @Client.on_message(filters.command("about"))
 async def about(bot, message):
-    await message.reply(script.ABOUT_TXT)
+    await message.reply(
+            buttons= [[
+            InlineKeyboardButton('𝖦𝗂𝗍𝖧𝗎𝖻', url='https://GitHub.com/EvaMariaTG/EvaMaria'),
+            InlineKeyboardButton('𝖲𝗍𝖺𝗍𝗎𝗌', callback_data='stats'),
+            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
+        ]])
 
 
 
