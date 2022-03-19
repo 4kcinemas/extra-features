@@ -1,4 +1,4 @@
-from pyrogram import client
+from pyrogram import client, filters
 
 app=client(
     "Netflix Bot",
