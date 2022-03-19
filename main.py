@@ -1,6 +1,6 @@
-from pyrogram import client, filters
+from pyrogram import Client, filters
 
-app=client(
+App=Client(
     "Netflix Bot",
     api_id="11762352",
     api_hash="2903597c04eb4a6d799ff8ffc87d4aac",
@@ -8,11 +8,11 @@ app=client(
 )
 
 
-@app.on_message(filters.command("about"))
+@App.on_message(filters.command("about"))
 async def about(bot, message):
     await message.reply(script.ABOUT_TXT)
 
 
 
 
-app.run()
+App.run()
