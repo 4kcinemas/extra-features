@@ -7,11 +7,9 @@ App=Client(
     bot_token="5222423549:AAFpbj40J4lgKgdbGbUl76HqUvFgtScA9DE"
 )
 
-
 @App.on_message(filters.command("about"))
 async def about(bot, message):
     await message.reply(script.ABOUT_TXT)
-
 
 
 
