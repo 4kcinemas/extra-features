@@ -11,3 +11,8 @@ app=client(
 @app.on_message(filters.command("about"))
 async def about(bot, message):
     await message.reply(script.ABOUT_TXT)
+
+
+
+
+app.run()
