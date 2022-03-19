@@ -9,7 +9,7 @@ Client(
 
 @Client.on_message(filters.command("about"))
 async def about(bot, message):
-    await message.reply("➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
+    await message.reply_text("➢ 𝐌𝐲 𝐍𝐚𝐦𝐞: 𝗡𝗘𝗧𝗙𝗟𝗜𝗫
     
 ➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='https://t.me/sarathi_admin'>🅢︎🅐︎🅡︎🅐︎🅣︎🅗︎🅘︎[𝖲𝖲𝖫𝗂𝗇𝗄𝗓]</a>
 
