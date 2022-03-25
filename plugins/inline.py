@@ -91,7 +91,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('Search again', switch_inline_query_current)
+            InlineKeyboardButton('❗ Group ❗', url=f'https://t.me/NetflixMovies_sslinkz')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
