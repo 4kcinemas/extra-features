@@ -1,3 +1,8 @@
+import datetime
+import pytz
+import asyncio
+import random
+import os
 import asyncio
 import re
 import ast
@@ -24,6 +29,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
+
+Time_Zone = os.environ["TIME_ZONE"]
 
 from image.edit_1 import (  # pylint:disable=import-error
     bright,
