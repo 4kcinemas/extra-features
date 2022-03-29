@@ -1,6 +1,7 @@
 import asyncio
 import re
 import ast
+import datetime
 
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
@@ -74,6 +75,16 @@ from image.edit_5 import (  # pylint:disable=import-error
 
 BUTTONS = {}
 SPELL_CHECK = {}
+
+@Client.on_message(filters.command("time"))
+async def default_time(_, msg):
+    if len(msg.command) == 1:
+        time = TimeTeller.india()
+        await msg.reply(time, quote=True)
+    elif len(msg.command) == 2:
+        time_zone = msg.command[1]
+        time = TimeTeller.particular(time_zone)
+        await msg.reply(time, quote=True)
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
 async def give_filter(client, message):
@@ -735,16 +746,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         sts = await query.message.reply_text(
-                  text="▢▢▢"
+                  text="◾◾◾"
         )
         await sts.edit_text(
-            text="▣▢▢"
+            text="◽◾◾"
         )
         await sts.edit_text(
-            text="▣▣▢"
+            text="◽◽◾"
         )
         await sts.edit_text(
-                   text="▣▣▣"
+                   text="◽◽◽"
         )
         await sts.delete(
         )
