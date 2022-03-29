@@ -119,7 +119,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"『📥{get_size(file.file_size)}』 {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"◽ {get_size(file.file_size)}▶{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -162,6 +162,12 @@ async def next_page(bot, query):
                 InlineKeyboardButton("⌦", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
+        btn.insert(0,
+            [
+                InlineKeyboardButton("ɪɴғᴏ","⚠︎ Information ⚠︎\n\nAfter 30 minutes this message will be automatically deleted\n\nIf you do not see the requested movie / series file, look at the next page\n\nⒸ ɴᴇᴛғʟɪx ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ",show_alert=true),
+                InlineKeyboardButton("ᴍᴏᴠɪᴇ",""
+                InlineKeyboardButton("sᴇʀɪᴇs", url="https://t.me/+VWYQKLaIim4yNjk1")
+            ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -1220,7 +1226,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"『📥{get_size(file.file_size)}』 {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"◽ {get_size(file.file_size)}▶{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
