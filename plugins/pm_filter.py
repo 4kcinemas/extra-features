@@ -167,9 +167,9 @@ async def next_page(bot, query):
         )
      btn.insert(0,
             [
-                InlineKeyboardButton('ɪɴғᴏ','info'),
-                InlineKeyboardButton('ᴍᴏᴠɪᴇ','movies'),
-                InlineKeyboardButton('sᴇʀɪᴇs','series')
+                InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
+                InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
             ])
     try:
         await query.edit_message_reply_markup(
