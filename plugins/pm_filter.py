@@ -1208,6 +1208,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴍᴀsᴛᴇʀ ᴏʀ ᴍᴀsᴛᴇʀ 2021\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ɴᴇᴛғʟɪx ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ", True)
     elif query.data == 'series':
         await query.answer("sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ sᴇʀɪᴇs ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : Alive ᴏʀ Alive S01E01\n\n🚯 ᴅᴏɴᴛ ᴜsᴇ ➠ ':(!,./)\n\nⒸ ɴᴇᴛғʟɪx ᴍᴏᴠɪᴇs ɢʀᴏᴜᴘ", True)
+    elif query.data == 'spelling':
+        await query.answer("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️", True)
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
@@ -1332,7 +1334,7 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         k = await msg.reply_sticker("CAACAgUAAxkBAAEN125iJLH_huw6lTleKqOxmqwCxLGpiAACugIAAkGL-VTQ6rE0nuUb2B4E")
-        reply_markup=[InlineKeyboardButton("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️",show_alert=true)]
+        reply_markup=[InlineKeyboardButton(f'Must Read', 'spelling')]
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -1362,7 +1364,7 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
         k = await msg.reply_sticker("CAACAgUAAxkBAAEN125iJLH_huw6lTleKqOxmqwCxLGpiAACugIAAkGL-VTQ6rE0nuUb2B4E")
-        reply_markup=[InlineKeyboardButton("⚠️Search Google.com Find the Correct Spelling of Movie Name and Year. Type that in Group to get the Files⚠️",show_alert=true)]
+        reply_markup=[InlineKeyboardButton(f'Must Read', 'spelling')]
         await asyncio.sleep(8)
         await k.delete()
         return
