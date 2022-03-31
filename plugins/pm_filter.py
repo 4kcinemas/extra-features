@@ -147,9 +147,9 @@ async def next_page(bot, query):
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("ᴘᴀɢᴇs", callback_data="pages"),
-             InlineKeyboardButton("ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}"),
              InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}",
-                                  callback_data="pages")]
+                                  callback_data="pages"),
+             InlineKeyboardButton("ʙᴀᴄᴋ", callback_data=f"next_{req}_{key}_{off_set}")]
         )
     elif off_set is None:
         btn.append(
@@ -165,7 +165,12 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")]
         )
-        
+     btn.insert(0,
+            [
+                InlineKeyboardButton('ɪɴғᴏ','info'),
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ','movies'),
+                InlineKeyboardButton('sᴇʀɪᴇs','series')
+            ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
