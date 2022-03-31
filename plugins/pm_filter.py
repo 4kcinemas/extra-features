@@ -165,7 +165,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")]
         )
-     btn.insert(0,
+    btn.insert(0,
             [
                 InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
                 InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
