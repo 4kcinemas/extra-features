@@ -137,6 +137,14 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+   
+    btn.insert(0,
+            [
+                InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
+                InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
+            ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -165,12 +173,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"{round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("ɴᴇxᴛ", callback_data=f"next_{req}_{key}_{n_offset}")]
         )
-    btn.insert(0,
-            [
-                InlineKeyboardButton(f'ɪɴғᴏ', 'info'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movies'),
-                InlineKeyboardButton(f'sᴇʀɪᴇs', 'series')
-            ])
+    
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
