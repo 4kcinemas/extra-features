@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton ('🔱 Movies Group 🔱',url=f'https://t.me/Netflix_Movies_Group')
-            [
+            ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''), 
             InlineKeyboardButton('Help💭', callback_data='help'),
             ]]
